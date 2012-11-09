@@ -1,0 +1,176 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+header {
+	height:35px;
+	position:fixed;
+	top:0px;
+	width:100%;
+	overflow:auto;
+	border-bottom: 1px solid #133783;
+	-webkit-box-shadow: 1px 1px 4px #222; /* Safari and Chrome */
+	box-shadow: 1px 1px 4px #222;
+	background:#3B5998;
+	font-family:tahoma;
+	font-size:16pt;
+}
+
+header li {
+	list-style:none;
+	float:left;
+	color:#fff;
+}
+
+header ul {
+	float:none;
+}
+
+div.wrapper {
+	margin-top:34px;
+}
+
+div#feed {
+	border:1px solid #A69999;
+	margin-left:350px;
+	margin-right:300px;
+}
+
+div#feed p {
+	font-family:tahoma;
+	margin-bottom: 0px;
+}
+
+div#feed h3 {
+	border-top:1px solid #A69999;
+	border-bottom:1px solid #A69999;
+	margin-top:35px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+div.content {
+	margin-left:120px;
+}
+
+div nav {
+	font-size:13pt;
+	font-family:tohoma;
+}
+div.content h4 {
+	font:tahoma;
+	font-size:13px;
+}
+
+div h4 ul {
+	float:left;
+}
+
+div.post {
+	border-bottom:1px solid #A69999;
+	margin:15px;
+	padding:5px;
+}
+
+div.meta {
+	font-size:10px;
+	color:#A69999;
+	margin-bottom: 0px;
+}
+
+div#feed img {
+	width:100px;
+	float:left;
+}
+
+header div.wrapper {
+	margin-top:0px;
+}
+
+h4 {
+	padding:0px;
+	margin-bottom: -15px;
+}
+
+/* ICON STYLES */
+i {
+	display:inline-block;
+	height:16px;
+	width:16px;
+	background:url(images/fb-icon-set.png) no-repeat;
+	margin:0px 4px;
+}
+
+i.requests {
+	background-position:-35px -115px;
+}
+
+i.messages {
+	background-position:-79px -255px;
+}
+
+i.notifications {
+	background-position:-34px -80px;
+}
+
+i.news {
+	background-position:-69px -426px;
+}
+
+i.events {
+	background-position:-53px -576px;
+}
+
+i.photos {
+	background-position:-66px -559px;
+}
+
+i.music {
+	background-position:-70px -470px;
+}
+
+nav {
+	overflow:auto;
+	float:left;
+	margin-left:135px;
+	margin-top:25px;
+}
+
+nav ul {
+	list-style:none;
+	float:left;
+}
+
+nav ul li a {
+	float:left;
+	font-size:9pt;
+	overflow:auto;
+}
+
+nav img {
+	width:75px;
+}
+
+h3 {
+	font-size:9pt;
+	color:#A69999; 
+}
+
+nav ul li a {
+	font-size:12pt;
+}
+
+ul {
+	padding:0px;
+	font-weight:bold;
+	margin: 0px;
+}
+
+h3{
+	margin:11px;
+}
+
+footer {
+	margin-left:350px;
+}

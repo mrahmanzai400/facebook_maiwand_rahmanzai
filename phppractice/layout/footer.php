@@ -1,0 +1,1 @@
+<p>Copyright &copy; <?php echo date('Y');?> Computer Topics 2012</p>
